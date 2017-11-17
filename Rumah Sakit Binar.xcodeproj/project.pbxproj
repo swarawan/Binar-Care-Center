@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0708D99F14E411497A2D826551A9BFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F71314EE9421078F3AE8AE6A5FC14 /* LaunchScreen.storyboard */; };
-		12987C042989A593C4FA08A09FFEE09A /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */; };
-		2583128CF8D567573B2CE2736ABA2D88 /* Pods_Rumah_Sakit_BinarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */; };
-		26E92D171FBF156800DBCA09 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D161FBF156800DBCA09 /* NetworkService.swift */; };
-		26E92D1A1FBF15BC00DBCA09 /* PatientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */; };
-		26E92D1D1FBF167D00DBCA09 /* PatientPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */; };
-		26E92D1F1FBF16A300DBCA09 /* PatientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */; };
-		26E92D211FBF190400DBCA09 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D201FBF190400DBCA09 /* Reachability.swift */; };
-		2CD9E06751A970C51F2621BD7534680D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */; };
-		304372E8E60F1EA53C3F7D8A83B3924C /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */; };
-		4BD09F9D24FCFF8E0E8BC982374B55C2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */; };
-		4CC6BA44C5DE67F568BC81E46A39CD1D /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */; };
-		5A973EDE77203C77B81E3FE955A2680F /* Pods_Rumah_Sakit_BinarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */; };
-		7560936C0DA680A61EA882C7414956DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */; };
-		8A7C44641BE78BDFC3388DA41C8A0B73 /* Rumah_Sakit_BinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */; };
-		B744E61E45E621AA6B98325340036B25 /* PatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */; };
 		C48784649825E226480EACF8F1F71F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */; };
-		E6DC485137F13EEEA3A7787C7BA13559 /* Rumah_Sakit_BinarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */; };
+		7560936C0DA680A61EA882C7414956DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */; };
+		0708D99F14E411497A2D826551A9BFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F71314EE9421078F3AE8AE6A5FC14 /* LaunchScreen.storyboard */; };
+		3D53523715BA7E08C845F2B03A6A475E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6B2ED12CFAADC24B6B3C50385FD96 /* NetworkService.swift */; };
+		4BD09F9D24FCFF8E0E8BC982374B55C2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */; };
+		15ED8853022BE12DC7770F0B920A4F65 /* PatientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23042471F1831CE0B2C639A51BB0EF2 /* PatientDelegate.swift */; };
+		BF5F8D3A6C4FCFC0053FB7C7844DC8BD /* PatientPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760432AE3298A4EF0FC9BBF0E5EDDE0 /* PatientPresenter.swift */; };
+		D9F8D82092AB3B72717C6D44587B5CAB /* PatientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2C4EF955486F87FB7F39BAEA78FD00 /* PatientResponse.swift */; };
+		4CC6BA44C5DE67F568BC81E46A39CD1D /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */; };
+		304372E8E60F1EA53C3F7D8A83B3924C /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */; };
+		12987C042989A593C4FA08A09FFEE09A /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */; };
+		B744E61E45E621AA6B98325340036B25 /* PatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */; };
 		F4DB9B65181D050A0B0E9476428CCD3C /* Pods_Rumah_Sakit_Binar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5277FA3E933F96A1C5D542898AE96 /* Pods_Rumah_Sakit_Binar.framework */; };
+		5A973EDE77203C77B81E3FE955A2680F /* Pods_Rumah_Sakit_BinarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */; };
+		2583128CF8D567573B2CE2736ABA2D88 /* Pods_Rumah_Sakit_BinarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */; };
+		09B17E15CD4F8DD483F9229F87F23CD4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C14863D0E8C0A8A32017725CA93B8D /* Reachability.swift */; };
+		8A7C44641BE78BDFC3388DA41C8A0B73 /* Rumah_Sakit_BinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */; };
+		E6DC485137F13EEEA3A7787C7BA13559 /* Rumah_Sakit_BinarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */; };
+		2CD9E06751A970C51F2621BD7534680D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,37 +46,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01275A2BE2DE77E559212953F339E897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0532F5DA121A1BE049CA9EA32497F3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		061B10758CEB4F682B027432ABA3F010 /* Rumah Sakit BinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
-		17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarUITests.swift; sourceTree = "<group>"; };
-		1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
-		1C9D47BD15B2F5323342A6516908D61C /* Pods-Rumah Sakit BinarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1EC120BBEF3D59C3A49C50ABB500E3A9 /* Rumah Sakit BinarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E92D161FBF156800DBCA09 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientResponse.swift; sourceTree = "<group>"; };
-		26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPresenter.swift; sourceTree = "<group>"; };
-		26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDelegate.swift; sourceTree = "<group>"; };
-		26E92D201FBF190400DBCA09 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5251313EF281EE214111A1BF84C27CE4 /* Pods-Rumah Sakit BinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.release.xcconfig"; sourceTree = "<group>"; };
-		5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientViewController.xib; sourceTree = "<group>"; };
-		5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientTableViewCell.xib; sourceTree = "<group>"; };
-		926FE162F2448DA3E44C76F35388E0E3 /* Pods-Rumah Sakit BinarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.debug.xcconfig"; sourceTree = "<group>"; };
-		93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A395732D7B2DC777C82CB29689A4B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DE1A2489BDDC7E3C4DBC54285B8E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
-		AD9934350B9157A951150CCD86E62BDD /* Rumah Sakit Binar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumah Sakit Binar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A6B2ED12CFAADC24B6B3C50385FD96 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		F23042471F1831CE0B2C639A51BB0EF2 /* PatientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDelegate.swift; sourceTree = "<group>"; };
+		E760432AE3298A4EF0FC9BBF0E5EDDE0 /* PatientPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPresenter.swift; sourceTree = "<group>"; };
+		1A2C4EF955486F87FB7F39BAEA78FD00 /* PatientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientResponse.swift; sourceTree = "<group>"; };
+		1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientTableViewCell.xib; sourceTree = "<group>"; };
+		1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientViewController.xib; sourceTree = "<group>"; };
 		CBB24E245E2CA4213809ED23DC92E01F /* Pods-Rumah Sakit Binar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit Binar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar.debug.xcconfig"; sourceTree = "<group>"; };
-		CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA9C5D49C8BA683E6E4FD64BAC8EE417 /* Pods-Rumah Sakit BinarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF04FAEEE9FB1F608546C5DC1F902A06 /* Pods-Rumah Sakit Binar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit Binar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar.release.xcconfig"; sourceTree = "<group>"; };
-		F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarTests.swift; sourceTree = "<group>"; };
+		926FE162F2448DA3E44C76F35388E0E3 /* Pods-Rumah Sakit BinarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5251313EF281EE214111A1BF84C27CE4 /* Pods-Rumah Sakit BinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C9D47BD15B2F5323342A6516908D61C /* Pods-Rumah Sakit BinarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA9C5D49C8BA683E6E4FD64BAC8EE417 /* Pods-Rumah Sakit BinarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FCD5277FA3E933F96A1C5D542898AE96 /* Pods_Rumah_Sakit_Binar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_Binar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C14863D0E8C0A8A32017725CA93B8D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AD9934350B9157A951150CCD86E62BDD /* Rumah Sakit Binar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumah Sakit Binar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061B10758CEB4F682B027432ABA3F010 /* Rumah Sakit BinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC120BBEF3D59C3A49C50ABB500E3A9 /* Rumah Sakit BinarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarTests.swift; sourceTree = "<group>"; };
+		17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarUITests.swift; sourceTree = "<group>"; };
+		A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,29 +139,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26E92D151FBF155300DBCA09 /* Network */ = {
+		EF116268D2AA7FCCD3D48CF47589A7E9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				26E92D181FBF15A900DBCA09 /* Model */,
-				26E92D161FBF156800DBCA09 /* NetworkService.swift */,
-				26E92D201FBF190400DBCA09 /* Reachability.swift */,
+				1663CF7DBAEFBFC2FEDBD67A0E921585 /* Model */,
+				45A6B2ED12CFAADC24B6B3C50385FD96 /* NetworkService.swift */,
+				F6C14863D0E8C0A8A32017725CA93B8D /* Reachability.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		26E92D181FBF15A900DBCA09 /* Model */ = {
+		1663CF7DBAEFBFC2FEDBD67A0E921585 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */,
+				1A2C4EF955486F87FB7F39BAEA78FD00 /* PatientResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		26E92D1B1FBF167000DBCA09 /* Presenter */ = {
+		C42E35A8D3D76D2D172CCD67DEBDC19C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */,
-				26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */,
+				F23042471F1831CE0B2C639A51BB0EF2 /* PatientDelegate.swift */,
+				E760432AE3298A4EF0FC9BBF0E5EDDE0 /* PatientPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -169,8 +169,8 @@
 		49C2BC4FBFDE8C310BBDA9DD4910B60F /* Patient */ = {
 			isa = PBXGroup;
 			children = (
-				26E92D1B1FBF167000DBCA09 /* Presenter */,
 				9121101E5975B3A30BE35339C9239FF3 /* Model */,
+				C42E35A8D3D76D2D172CCD67DEBDC19C /* Presenter */,
 				163317D168EDE6D35B8DCE851D64D9FF /* View */,
 			);
 			path = Patient;
@@ -249,8 +249,8 @@
 		835AB91993F4086E8FAA178D83C0DFC9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				26E92D151FBF155300DBCA09 /* Network */,
 				6012C15CB2DE6FB4A5CEF8C3A0C7C40C /* Extensions */,
+				EF116268D2AA7FCCD3D48CF47589A7E9 /* Network */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -581,15 +581,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48784649825E226480EACF8F1F71F58 /* AppDelegate.swift in Sources */,
+				3D53523715BA7E08C845F2B03A6A475E /* NetworkService.swift in Sources */,
 				4BD09F9D24FCFF8E0E8BC982374B55C2 /* Patient.swift in Sources */,
-				26E92D1D1FBF167D00DBCA09 /* PatientPresenter.swift in Sources */,
+				15ED8853022BE12DC7770F0B920A4F65 /* PatientDelegate.swift in Sources */,
+				BF5F8D3A6C4FCFC0053FB7C7844DC8BD /* PatientPresenter.swift in Sources */,
+				D9F8D82092AB3B72717C6D44587B5CAB /* PatientResponse.swift in Sources */,
 				4CC6BA44C5DE67F568BC81E46A39CD1D /* PatientTableViewCell.swift in Sources */,
-				26E92D1F1FBF16A300DBCA09 /* PatientDelegate.swift in Sources */,
 				12987C042989A593C4FA08A09FFEE09A /* PatientViewController.swift in Sources */,
-				26E92D1A1FBF15BC00DBCA09 /* PatientResponse.swift in Sources */,
-				26E92D211FBF190400DBCA09 /* Reachability.swift in Sources */,
+				09B17E15CD4F8DD483F9229F87F23CD4 /* Reachability.swift in Sources */,
 				2CD9E06751A970C51F2621BD7534680D /* UIImageView+Extensions.swift in Sources */,
-				26E92D171FBF156800DBCA09 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
