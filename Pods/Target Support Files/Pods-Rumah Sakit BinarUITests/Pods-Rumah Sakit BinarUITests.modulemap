@@ -1,0 +1,6 @@
+framework module Pods_Rumah_Sakit_BinarUITests {
+  umbrella header "Pods-Rumah Sakit BinarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

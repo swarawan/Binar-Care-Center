@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0708D99F14E411497A2D826551A9BFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F71314EE9421078F3AE8AE6A5FC14 /* LaunchScreen.storyboard */; };
+		12987C042989A593C4FA08A09FFEE09A /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */; };
+		2583128CF8D567573B2CE2736ABA2D88 /* Pods_Rumah_Sakit_BinarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */; };
+		26E92D171FBF156800DBCA09 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D161FBF156800DBCA09 /* NetworkService.swift */; };
+		26E92D1A1FBF15BC00DBCA09 /* PatientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */; };
+		26E92D1D1FBF167D00DBCA09 /* PatientPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */; };
+		26E92D1F1FBF16A300DBCA09 /* PatientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */; };
+		26E92D211FBF190400DBCA09 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E92D201FBF190400DBCA09 /* Reachability.swift */; };
+		2CD9E06751A970C51F2621BD7534680D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */; };
+		304372E8E60F1EA53C3F7D8A83B3924C /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */; };
+		4BD09F9D24FCFF8E0E8BC982374B55C2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */; };
+		4CC6BA44C5DE67F568BC81E46A39CD1D /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */; };
+		5A973EDE77203C77B81E3FE955A2680F /* Pods_Rumah_Sakit_BinarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */; };
+		7560936C0DA680A61EA882C7414956DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */; };
+		8A7C44641BE78BDFC3388DA41C8A0B73 /* Rumah_Sakit_BinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */; };
+		B744E61E45E621AA6B98325340036B25 /* PatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */; };
+		C48784649825E226480EACF8F1F71F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */; };
+		E6DC485137F13EEEA3A7787C7BA13559 /* Rumah_Sakit_BinarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */; };
+		F4DB9B65181D050A0B0E9476428CCD3C /* Pods_Rumah_Sakit_Binar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5277FA3E933F96A1C5D542898AE96 /* Pods_Rumah_Sakit_Binar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E9B68FFEFD21BD555E2DD5C30BC12EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27BC6F17EFE61BB277EBD240E34AC39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2437EA13C63D8EB73979EE327D8EA61;
+			remoteInfo = "Rumah Sakit Binar";
+		};
+		96BC2CEF29BD5892AD2EC4C2D3E2EEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27BC6F17EFE61BB277EBD240E34AC39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2437EA13C63D8EB73979EE327D8EA61;
+			remoteInfo = "Rumah Sakit Binar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01275A2BE2DE77E559212953F339E897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0532F5DA121A1BE049CA9EA32497F3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061B10758CEB4F682B027432ABA3F010 /* Rumah Sakit BinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarUITests.swift; sourceTree = "<group>"; };
+		1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		1C9D47BD15B2F5323342A6516908D61C /* Pods-Rumah Sakit BinarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC120BBEF3D59C3A49C50ABB500E3A9 /* Rumah Sakit BinarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumah Sakit BinarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E92D161FBF156800DBCA09 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientResponse.swift; sourceTree = "<group>"; };
+		26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPresenter.swift; sourceTree = "<group>"; };
+		26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDelegate.swift; sourceTree = "<group>"; };
+		26E92D201FBF190400DBCA09 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5251313EF281EE214111A1BF84C27CE4 /* Pods-Rumah Sakit BinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.release.xcconfig"; sourceTree = "<group>"; };
+		5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientViewController.xib; sourceTree = "<group>"; };
+		5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientTableViewCell.xib; sourceTree = "<group>"; };
+		926FE162F2448DA3E44C76F35388E0E3 /* Pods-Rumah Sakit BinarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A395732D7B2DC777C82CB29689A4B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DE1A2489BDDC7E3C4DBC54285B8E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		AD9934350B9157A951150CCD86E62BDD /* Rumah Sakit Binar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumah Sakit Binar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		CBB24E245E2CA4213809ED23DC92E01F /* Pods-Rumah Sakit Binar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit Binar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_BinarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C5D49C8BA683E6E4FD64BAC8EE417 /* Pods-Rumah Sakit BinarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit BinarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF04FAEEE9FB1F608546C5DC1F902A06 /* Pods-Rumah Sakit Binar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rumah Sakit Binar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar.release.xcconfig"; sourceTree = "<group>"; };
+		F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumah_Sakit_BinarTests.swift; sourceTree = "<group>"; };
+		FCD5277FA3E933F96A1C5D542898AE96 /* Pods_Rumah_Sakit_Binar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rumah_Sakit_Binar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B68743ACD595EE9FA6E47676D4994EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2583128CF8D567573B2CE2736ABA2D88 /* Pods_Rumah_Sakit_BinarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D5D595012B56FB63FEC11E9194A31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A973EDE77203C77B81E3FE955A2680F /* Pods_Rumah_Sakit_BinarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A0B55F0DA93D967FB5C0B16DB5E40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB9B65181D050A0B0E9476428CCD3C /* Pods_Rumah_Sakit_Binar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163317D168EDE6D35B8DCE851D64D9FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA4AD4AD89BF8B8728C16B85BE95C9 /* TableViewCell */,
+				1AE106FEE6914738BD6A3ED3BE7F9621 /* PatientViewController.swift */,
+				5876955D8A35856340D6B141A1D14841 /* PatientViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17B9517C5B9E5FCA4F10FE220ED0F21E = {
+			isa = PBXGroup;
+			children = (
+				79A42DF845AFF1E81079A55F975C408E /* Frameworks */,
+				4F2C574806FB489E2657576B28473731 /* Pods */,
+				26C1C3E2AA7FAF1E16353B8B99CCE2F5 /* Products */,
+				603B0309FF0D107F5A56FC1194E81868 /* Rumah Sakit Binar */,
+				52148D74EBFA6F0E0CD0B6A4F6849DA3 /* Rumah Sakit BinarTests */,
+				50C46C8B4F1A1FA23BCCB1CB158FF5FD /* Rumah Sakit BinarUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		26C1C3E2AA7FAF1E16353B8B99CCE2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9934350B9157A951150CCD86E62BDD /* Rumah Sakit Binar.app */,
+				061B10758CEB4F682B027432ABA3F010 /* Rumah Sakit BinarTests.xctest */,
+				1EC120BBEF3D59C3A49C50ABB500E3A9 /* Rumah Sakit BinarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E92D151FBF155300DBCA09 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				26E92D181FBF15A900DBCA09 /* Model */,
+				26E92D161FBF156800DBCA09 /* NetworkService.swift */,
+				26E92D201FBF190400DBCA09 /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		26E92D181FBF15A900DBCA09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26E92D191FBF15BC00DBCA09 /* PatientResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26E92D1B1FBF167000DBCA09 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				26E92D1C1FBF167D00DBCA09 /* PatientPresenter.swift */,
+				26E92D1E1FBF16A300DBCA09 /* PatientDelegate.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		49C2BC4FBFDE8C310BBDA9DD4910B60F /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				26E92D1B1FBF167000DBCA09 /* Presenter */,
+				9121101E5975B3A30BE35339C9239FF3 /* Model */,
+				163317D168EDE6D35B8DCE851D64D9FF /* View */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		4F2C574806FB489E2657576B28473731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB24E245E2CA4213809ED23DC92E01F /* Pods-Rumah Sakit Binar.debug.xcconfig */,
+				DF04FAEEE9FB1F608546C5DC1F902A06 /* Pods-Rumah Sakit Binar.release.xcconfig */,
+				926FE162F2448DA3E44C76F35388E0E3 /* Pods-Rumah Sakit BinarTests.debug.xcconfig */,
+				5251313EF281EE214111A1BF84C27CE4 /* Pods-Rumah Sakit BinarTests.release.xcconfig */,
+				1C9D47BD15B2F5323342A6516908D61C /* Pods-Rumah Sakit BinarUITests.debug.xcconfig */,
+				DA9C5D49C8BA683E6E4FD64BAC8EE417 /* Pods-Rumah Sakit BinarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50C46C8B4F1A1FA23BCCB1CB158FF5FD /* Rumah Sakit BinarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0532F5DA121A1BE049CA9EA32497F3FC /* Info.plist */,
+				17EF03CCBE1FB2133C0247A463250D02 /* Rumah_Sakit_BinarUITests.swift */,
+			);
+			path = "Rumah Sakit BinarUITests";
+			sourceTree = "<group>";
+		};
+		52148D74EBFA6F0E0CD0B6A4F6849DA3 /* Rumah Sakit BinarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE1A2489BDDC7E3C4DBC54285B8E42 /* Info.plist */,
+				F2DC9C9BA4FB97711F095A52C67B6EDA /* Rumah_Sakit_BinarTests.swift */,
+			);
+			path = "Rumah Sakit BinarTests";
+			sourceTree = "<group>";
+		};
+		6012C15CB2DE6FB4A5CEF8C3A0C7C40C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A938E22CC3F29BC7724416750D93CF19 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		603B0309FF0D107F5A56FC1194E81868 /* Rumah Sakit Binar */ = {
+			isa = PBXGroup;
+			children = (
+				835AB91993F4086E8FAA178D83C0DFC9 /* Common */,
+				805332349279DAD857FE9C36D8A64F38 /* Module */,
+				47BB7C9D6DFFF1A0EE4DF935759CE5AA /* AppDelegate.swift */,
+				93F9A0B741581CA1AAE4D121D3FCD07B /* Assets.xcassets */,
+				A395732D7B2DC777C82CB29689A4B0E6 /* Info.plist */,
+				8A2F71314EE9421078F3AE8AE6A5FC14 /* LaunchScreen.storyboard */,
+			);
+			path = "Rumah Sakit Binar";
+			sourceTree = "<group>";
+		};
+		79A42DF845AFF1E81079A55F975C408E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5277FA3E933F96A1C5D542898AE96 /* Pods_Rumah_Sakit_Binar.framework */,
+				D7CA47EA4442E3F514AC4323A80BD1EA /* Pods_Rumah_Sakit_BinarTests.framework */,
+				CBF131F5E4B603223B2DE2009E9DE627 /* Pods_Rumah_Sakit_BinarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		805332349279DAD857FE9C36D8A64F38 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				49C2BC4FBFDE8C310BBDA9DD4910B60F /* Patient */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		835AB91993F4086E8FAA178D83C0DFC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				26E92D151FBF155300DBCA09 /* Network */,
+				6012C15CB2DE6FB4A5CEF8C3A0C7C40C /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9121101E5975B3A30BE35339C9239FF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6ABB46C89301C7179EEEB588FD24FA3 /* Patient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1FA4AD4AD89BF8B8728C16B85BE95C9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1320638E1330C17B9146D39E1BB6D2EE /* PatientTableViewCell.swift */,
+				5F6510D400A712A3ACE95D7ADCE30C1B /* PatientTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F2CAF219D5552C4641F76014F399367 /* Rumah Sakit BinarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBAC1F44C03DC4A3AA0219B981C42D /* Build configuration list for PBXNativeTarget "Rumah Sakit BinarTests" */;
+			buildPhases = (
+				AB3DCA7F7BEF55305926F06B96888414 /* [CP] Check Pods Manifest.lock */,
+				B7980C428409D981AF8B1A776E121FCC /* Sources */,
+				99D5D595012B56FB63FEC11E9194A31E /* Frameworks */,
+				EBB8D617E10A8814EC6913727A52E92B /* Resources */,
+				22F0998882F51B02AB6D3EA7DE1E9F4A /* [CP] Embed Pods Frameworks */,
+				4082A4FE98BC465520FAD6C8C10D80BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EDCAE191FBDEDFAA9B0340B213C561 /* PBXTargetDependency */,
+			);
+			name = "Rumah Sakit BinarTests";
+			productName = "Rumah Sakit BinarTests";
+			productReference = 061B10758CEB4F682B027432ABA3F010 /* Rumah Sakit BinarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0F9FC9A05E2A87A0FC58ACB3FBD5C2B /* Rumah Sakit BinarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAF874E714BCF90A793DCACA9CD6FFB /* Build configuration list for PBXNativeTarget "Rumah Sakit BinarUITests" */;
+			buildPhases = (
+				50574AB74C8FE5BD0B27A0FAA160D326 /* [CP] Check Pods Manifest.lock */,
+				460675B803A1E2F47F74E1DF40502032 /* Sources */,
+				0B68743ACD595EE9FA6E47676D4994EE /* Frameworks */,
+				89BD1FC8E647167E43B7E9ED760D9542 /* Resources */,
+				6F1714E5221BA8C1726A9FE5D916B519 /* [CP] Embed Pods Frameworks */,
+				6CE62F1FFB792A80DF0E8E28E0AD4739 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B0EA0648CDA09622FB002FDA1C2B7E /* PBXTargetDependency */,
+			);
+			name = "Rumah Sakit BinarUITests";
+			productName = "Rumah Sakit BinarUITests";
+			productReference = 1EC120BBEF3D59C3A49C50ABB500E3A9 /* Rumah Sakit BinarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E2437EA13C63D8EB73979EE327D8EA61 /* Rumah Sakit Binar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC52BAB96F81818D6874431294930FE4 /* Build configuration list for PBXNativeTarget "Rumah Sakit Binar" */;
+			buildPhases = (
+				35F12BEB9A64E91780F0A266CFD4725A /* [CP] Check Pods Manifest.lock */,
+				7A319F40ED3F42C01C0ECB8B839A9C28 /* Sources */,
+				C9A0B55F0DA93D967FB5C0B16DB5E40B /* Frameworks */,
+				3A54E7E133C9B9A539A72066A50F6F5F /* Resources */,
+				F618E1C28D82C652F4FFF25975889D8B /* [CP] Embed Pods Frameworks */,
+				E1729A1732A192A7396C366335E3831C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumah Sakit Binar";
+			productName = "Rumah Sakit Binar";
+			productReference = AD9934350B9157A951150CCD86E62BDD /* Rumah Sakit Binar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27BC6F17EFE61BB277EBD240E34AC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rio Swarawan";
+				TargetAttributes = {
+					2F2CAF219D5552C4641F76014F399367 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2437EA13C63D8EB73979EE327D8EA61;
+					};
+					A0F9FC9A05E2A87A0FC58ACB3FBD5C2B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2437EA13C63D8EB73979EE327D8EA61;
+					};
+					E2437EA13C63D8EB73979EE327D8EA61 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC2BDC6514D738F616AE0A2B1F10DDF4 /* Build configuration list for PBXProject "Rumah Sakit Binar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17B9517C5B9E5FCA4F10FE220ED0F21E;
+			productRefGroup = 26C1C3E2AA7FAF1E16353B8B99CCE2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2437EA13C63D8EB73979EE327D8EA61 /* Rumah Sakit Binar */,
+				2F2CAF219D5552C4641F76014F399367 /* Rumah Sakit BinarTests */,
+				A0F9FC9A05E2A87A0FC58ACB3FBD5C2B /* Rumah Sakit BinarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A54E7E133C9B9A539A72066A50F6F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7560936C0DA680A61EA882C7414956DB /* Assets.xcassets in Resources */,
+				0708D99F14E411497A2D826551A9BFAC /* LaunchScreen.storyboard in Resources */,
+				304372E8E60F1EA53C3F7D8A83B3924C /* PatientTableViewCell.xib in Resources */,
+				B744E61E45E621AA6B98325340036B25 /* PatientViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BD1FC8E647167E43B7E9ED760D9542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8D617E10A8814EC6913727A52E92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F0998882F51B02AB6D3EA7DE1E9F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F12BEB9A64E91780F0A266CFD4725A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rumah Sakit Binar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4082A4FE98BC465520FAD6C8C10D80BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit BinarTests/Pods-Rumah Sakit BinarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50574AB74C8FE5BD0B27A0FAA160D326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rumah Sakit BinarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE62F1FFB792A80DF0E8E28E0AD4739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1714E5221BA8C1726A9FE5D916B519 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit BinarUITests/Pods-Rumah Sakit BinarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3DCA7F7BEF55305926F06B96888414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rumah Sakit BinarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1729A1732A192A7396C366335E3831C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F618E1C28D82C652F4FFF25975889D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rumah Sakit Binar/Pods-Rumah Sakit Binar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460675B803A1E2F47F74E1DF40502032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DC485137F13EEEA3A7787C7BA13559 /* Rumah_Sakit_BinarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A319F40ED3F42C01C0ECB8B839A9C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48784649825E226480EACF8F1F71F58 /* AppDelegate.swift in Sources */,
+				4BD09F9D24FCFF8E0E8BC982374B55C2 /* Patient.swift in Sources */,
+				26E92D1D1FBF167D00DBCA09 /* PatientPresenter.swift in Sources */,
+				4CC6BA44C5DE67F568BC81E46A39CD1D /* PatientTableViewCell.swift in Sources */,
+				26E92D1F1FBF16A300DBCA09 /* PatientDelegate.swift in Sources */,
+				12987C042989A593C4FA08A09FFEE09A /* PatientViewController.swift in Sources */,
+				26E92D1A1FBF15BC00DBCA09 /* PatientResponse.swift in Sources */,
+				26E92D211FBF190400DBCA09 /* Reachability.swift in Sources */,
+				2CD9E06751A970C51F2621BD7534680D /* UIImageView+Extensions.swift in Sources */,
+				26E92D171FBF156800DBCA09 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7980C428409D981AF8B1A776E121FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7C44641BE78BDFC3388DA41C8A0B73 /* Rumah_Sakit_BinarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B0EA0648CDA09622FB002FDA1C2B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2437EA13C63D8EB73979EE327D8EA61 /* Rumah Sakit Binar */;
+			targetProxy = 96BC2CEF29BD5892AD2EC4C2D3E2EEE7 /* PBXContainerItemProxy */;
+		};
+		B0EDCAE191FBDEDFAA9B0340B213C561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2437EA13C63D8EB73979EE327D8EA61 /* Rumah Sakit Binar */;
+			targetProxy = 4E9B68FFEFD21BD555E2DD5C30BC12EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A2F71314EE9421078F3AE8AE6A5FC14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01275A2BE2DE77E559212953F339E897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B25FE6FA0B163EB041251EDA353561B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9D47BD15B2F5323342A6516908D61C /* Pods-Rumah Sakit BinarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit BinarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-BinarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rumah Sakit Binar";
+			};
+			name = Debug;
+		};
+		481F5AF6B00E81DAAB7152341DBF288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF04FAEEE9FB1F608546C5DC1F902A06 /* Pods-Rumah Sakit Binar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit Binar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-Binar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EBDBE6136217584EDD48B5848356DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5716BCE32DF318DF45AB341AC4BF1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9C5D49C8BA683E6E4FD64BAC8EE417 /* Pods-Rumah Sakit BinarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit BinarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-BinarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rumah Sakit Binar";
+			};
+			name = Release;
+		};
+		756066C8F03AB4682376B81F5773DCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB24E245E2CA4213809ED23DC92E01F /* Pods-Rumah Sakit Binar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit Binar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-Binar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D9DD3CFFF1B2B118633A8F90FDB41ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5251313EF281EE214111A1BF84C27CE4 /* Pods-Rumah Sakit BinarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit BinarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-BinarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumah Sakit Binar.app/Rumah Sakit Binar";
+			};
+			name = Release;
+		};
+		94A66FF5179F944910DC3591014BC94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB193C8C0B88AA321445A9CC0100B7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926FE162F2448DA3E44C76F35388E0E3 /* Pods-Rumah Sakit BinarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7X2P7E75;
+				INFOPLIST_FILE = "Rumah Sakit BinarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swarawan..Rumah-Sakit-BinarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumah Sakit Binar.app/Rumah Sakit Binar";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FBAC1F44C03DC4A3AA0219B981C42D /* Build configuration list for PBXNativeTarget "Rumah Sakit BinarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB193C8C0B88AA321445A9CC0100B7A3 /* Debug */,
+				8D9DD3CFFF1B2B118633A8F90FDB41ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAF874E714BCF90A793DCACA9CD6FFB /* Build configuration list for PBXNativeTarget "Rumah Sakit BinarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B25FE6FA0B163EB041251EDA353561B /* Debug */,
+				5716BCE32DF318DF45AB341AC4BF1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2BDC6514D738F616AE0A2B1F10DDF4 /* Build configuration list for PBXProject "Rumah Sakit Binar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBDBE6136217584EDD48B5848356DCC /* Debug */,
+				94A66FF5179F944910DC3591014BC94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC52BAB96F81818D6874431294930FE4 /* Build configuration list for PBXNativeTarget "Rumah Sakit Binar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756066C8F03AB4682376B81F5773DCBD /* Debug */,
+				481F5AF6B00E81DAAB7152341DBF288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27BC6F17EFE61BB277EBD240E34AC39 /* Project object */;
+}
